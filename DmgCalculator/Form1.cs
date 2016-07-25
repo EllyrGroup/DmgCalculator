@@ -52,6 +52,10 @@ namespace DmgCalculator
                 MessageBox.Show(ex.ToString());
             }
 
+#if DEBUG
+            bt_test.Enabled = true;
+            bt_test.Visible = true;
+#endif
 
         }
 
