@@ -33,7 +33,7 @@ namespace DmgCalculator
                         string[] datas = line.Split(';');
 
                         weapons.Add(int.Parse(datas[0]));
-                        lb_item.Items.Add(datas[1] + "  :   " + datas[0]);
+                        lb_item.Items.Add(datas[1] + " :    " + datas[0]);
                     }
                 }
                 using (StreamReader sr = new StreamReader("Materials.csv", Encoding.UTF8))
@@ -43,7 +43,7 @@ namespace DmgCalculator
                         string[] datas = line.Split(';');
 
                         materials.Add(int.Parse(datas[0]));
-                        lb_material.Items.Add(datas[1] + "  :   " + datas[0]);
+                        lb_material.Items.Add(datas[1] + " :    " + datas[0]);
                     }
                 }
             }
@@ -61,9 +61,6 @@ namespace DmgCalculator
 
         private void bt_test_Click(object sender, EventArgs e)
         {
-            string wpns = "Zbraně\n";
-            string mtrjs = "Materiály\n";
-
             foreach (int i in weapons)
             {
                 
@@ -73,8 +70,7 @@ namespace DmgCalculator
                 
             }
 
-            MessageBox.Show(wpns);
-            MessageBox.Show(mtrjs);
+            MessageBox.Show("test message", "TEST");
         }
 
         private void bt_calculate_Click(object sender, EventArgs e)
