@@ -1,0 +1,11 @@
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\bin\x86\Release\DmgCalculator.exe.config
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\bin\x86\Release\Materials.csv
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\bin\x86\Release\Weapons.csv
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\bin\x86\Release\DmgCalculator.exe
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\bin\x86\Release\DmgCalculator.pdb
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\obj\x86\Release\DmgCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\obj\x86\Release\DmgCalculator.Form1.resources
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\obj\x86\Release\DmgCalculator.Properties.Resources.resources
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\obj\x86\Release\DmgCalculator.csproj.GenerateResource.Cache
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\obj\x86\Release\DmgCalculator.exe
+C:\Users\Enrich\Documents\Visual Studio 2015\Projects\C#\WinForm\DmgCalculator\DmgCalculator\obj\x86\Release\DmgCalculator.pdb

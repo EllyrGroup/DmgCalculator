@@ -53,8 +53,7 @@ namespace DmgCalculator
             }
 
 #if DEBUG
-            bt_test.Enabled = true;
-            bt_test.Visible = true;
+            Text = "DMG Calculator [DEBUG]";
 #endif
 
         }
@@ -75,9 +74,18 @@ namespace DmgCalculator
 
         private void bt_calculate_Click(object sender, EventArgs e)
         {
-            int tempResult = weapons[lb_item.SelectedIndex] + materials[lb_material.SelectedIndex] + ((int)nud_plusUpgrade.Value * 3);
+            int tempElemDmg = 0;
+            if (chb_water.Checked) { tempElemDmg += 5; }
+            if (chb_fire.Checked) { tempElemDmg += 5; }
+            if (chb_earth.Checked) { tempElemDmg += 5; }
+            if (chb_wind.Checked) { tempElemDmg += 5; }
+            if (chb_water.Checked) { tempElemDmg += 5; }
+            if (chb_electro.Checked) { tempElemDmg += 5; }
+            if (chb_light.Checked) { tempElemDmg += 5; }
+            if (chb_shadow.Checked) { tempElemDmg += 5; }
 
-            tb_result.Text = tempResult.ToString();
+            tb_result.Text = (weapons[lb_item.SelectedIndex] + materials[lb_material.SelectedIndex] + ((int)nud_plusUpgrade.Value * 3)).ToString();
+            tb_elemDmg.Text = tempElemDmg.ToString();
         }
     }
 }
