@@ -73,6 +73,7 @@
             this.tb_result.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.tb_result.Location = new System.Drawing.Point(475, 207);
             this.tb_result.Name = "tb_result";
+            this.tb_result.ReadOnly = true;
             this.tb_result.Size = new System.Drawing.Size(135, 64);
             this.tb_result.TabIndex = 1;
             this.tb_result.Text = "0";
@@ -220,6 +221,7 @@
             this.tb_elemDmg.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.tb_elemDmg.Location = new System.Drawing.Point(656, 207);
             this.tb_elemDmg.Name = "tb_elemDmg";
+            this.tb_elemDmg.ReadOnly = true;
             this.tb_elemDmg.Size = new System.Drawing.Size(65, 64);
             this.tb_elemDmg.TabIndex = 15;
             this.tb_elemDmg.Text = "0";
@@ -238,6 +240,7 @@
             // 
             this.tb_checksum.Location = new System.Drawing.Point(6, 282);
             this.tb_checksum.Name = "tb_checksum";
+            this.tb_checksum.ReadOnly = true;
             this.tb_checksum.Size = new System.Drawing.Size(712, 20);
             this.tb_checksum.TabIndex = 17;
             this.tb_checksum.Text = "Hash of item";

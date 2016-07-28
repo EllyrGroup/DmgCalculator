@@ -50,7 +50,7 @@ namespace DmgCalculator
                         lb_item.Items.Add(datas[1] + " :    " + datas[0]);
                     }
                 }
-                using (StreamReader sr = new StreamReader("Materials.csv", Encoding.UTF8))
+                using (StreamReader sr = new StreamReader("WMat.csv", Encoding.UTF8))
                 {
                     while ((line = sr.ReadLine()) != null)
                     {
@@ -65,9 +65,10 @@ namespace DmgCalculator
             {
                 MessageBox.Show(ex.ToString());
             }
-
 #if DEBUG
             Text = "DMG Calculator [DEBUG]";
+            nud_plusUpgrade.Maximum = decimal.MaxValue;
+            bt_calculate.ForeColor = System.Drawing.Color.Red;
 #endif
 
         }
