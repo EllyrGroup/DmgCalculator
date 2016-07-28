@@ -41,11 +41,12 @@
             this.chb_water = new System.Windows.Forms.CheckBox();
             this.chb_fire = new System.Windows.Forms.CheckBox();
             this.chb_earth = new System.Windows.Forms.CheckBox();
-            this.chb_wind = new System.Windows.Forms.CheckBox();
+            this.chb_air = new System.Windows.Forms.CheckBox();
             this.chb_electro = new System.Windows.Forms.CheckBox();
             this.chb_shadow = new System.Windows.Forms.CheckBox();
             this.tb_elemDmg = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.tb_checksum = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.nud_plusUpgrade)).BeginInit();
             this.SuspendLayout();
             // 
@@ -123,7 +124,7 @@
             this.nud_plusUpgrade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.nud_plusUpgrade.Location = new System.Drawing.Point(521, 176);
             this.nud_plusUpgrade.Maximum = new decimal(new int[] {
-            20,
+            10,
             0,
             0,
             0});
@@ -135,77 +136,77 @@
             // 
             this.chb_light.AutoSize = true;
             this.chb_light.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.chb_light.Location = new System.Drawing.Point(12, 242);
+            this.chb_light.Location = new System.Drawing.Point(12, 250);
             this.chb_light.Name = "chb_light";
-            this.chb_light.Size = new System.Drawing.Size(69, 22);
+            this.chb_light.Size = new System.Drawing.Size(110, 22);
             this.chb_light.TabIndex = 9;
-            this.chb_light.Text = "Solarit";
+            this.chb_light.Text = "Solem (light)";
             this.chb_light.UseVisualStyleBackColor = true;
             // 
             // chb_water
             // 
             this.chb_water.AutoSize = true;
             this.chb_water.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.chb_water.Location = new System.Drawing.Point(12, 196);
+            this.chb_water.Location = new System.Drawing.Point(12, 194);
             this.chb_water.Name = "chb_water";
-            this.chb_water.Size = new System.Drawing.Size(76, 22);
+            this.chb_water.Size = new System.Drawing.Size(117, 22);
             this.chb_water.TabIndex = 10;
-            this.chb_water.Text = "Suitonit";
+            this.chb_water.Text = "Vesirit (water)";
             this.chb_water.UseVisualStyleBackColor = true;
             // 
             // chb_fire
             // 
             this.chb_fire.AutoSize = true;
             this.chb_fire.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.chb_fire.Location = new System.Drawing.Point(230, 196);
+            this.chb_fire.Location = new System.Drawing.Point(230, 194);
             this.chb_fire.Name = "chb_fire";
-            this.chb_fire.Size = new System.Drawing.Size(73, 22);
+            this.chb_fire.Size = new System.Drawing.Size(102, 22);
             this.chb_fire.TabIndex = 11;
-            this.chb_fire.Text = "Katonit";
+            this.chb_fire.Text = "Eldurit (fire)";
             this.chb_fire.UseVisualStyleBackColor = true;
             // 
             // chb_earth
             // 
             this.chb_earth.AutoSize = true;
             this.chb_earth.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.chb_earth.Location = new System.Drawing.Point(12, 219);
+            this.chb_earth.Location = new System.Drawing.Point(12, 222);
             this.chb_earth.Name = "chb_earth";
-            this.chb_earth.Size = new System.Drawing.Size(75, 22);
+            this.chb_earth.Size = new System.Drawing.Size(117, 22);
             this.chb_earth.TabIndex = 12;
-            this.chb_earth.Text = "Dotonit";
+            this.chb_earth.Text = "Erderit (earth)";
             this.chb_earth.UseVisualStyleBackColor = true;
             // 
-            // chb_wind
+            // chb_air
             // 
-            this.chb_wind.AutoSize = true;
-            this.chb_wind.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.chb_wind.Location = new System.Drawing.Point(230, 219);
-            this.chb_wind.Name = "chb_wind";
-            this.chb_wind.Size = new System.Drawing.Size(72, 22);
-            this.chb_wind.TabIndex = 13;
-            this.chb_wind.Text = "Futonit";
-            this.chb_wind.UseVisualStyleBackColor = true;
+            this.chb_air.AutoSize = true;
+            this.chb_air.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.chb_air.Location = new System.Drawing.Point(230, 222);
+            this.chb_air.Name = "chb_air";
+            this.chb_air.Size = new System.Drawing.Size(105, 22);
+            this.chb_air.TabIndex = 13;
+            this.chb_air.Text = "Adhairit (air)";
+            this.chb_air.UseVisualStyleBackColor = true;
             // 
             // chb_electro
             // 
             this.chb_electro.AutoSize = true;
             this.chb_electro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.chb_electro.Location = new System.Drawing.Point(122, 173);
+            this.chb_electro.Location = new System.Drawing.Point(110, 166);
             this.chb_electro.Name = "chb_electro";
-            this.chb_electro.Size = new System.Drawing.Size(81, 22);
+            this.chb_electro.Size = new System.Drawing.Size(144, 22);
             this.chb_electro.TabIndex = 13;
-            this.chb_electro.Text = "Raytonit";
+            this.chb_electro.Text = "Folgorit (lightning)";
             this.chb_electro.UseVisualStyleBackColor = true;
             // 
             // chb_shadow
             // 
             this.chb_shadow.AutoSize = true;
             this.chb_shadow.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.chb_shadow.Location = new System.Drawing.Point(230, 242);
+            this.chb_shadow.Location = new System.Drawing.Point(230, 250);
             this.chb_shadow.Name = "chb_shadow";
-            this.chb_shadow.Size = new System.Drawing.Size(83, 22);
+            this.chb_shadow.Size = new System.Drawing.Size(141, 22);
             this.chb_shadow.TabIndex = 14;
-            this.chb_shadow.Text = "Demonit";
+            this.chb_shadow.Text = "Umbral (shadow)";
             this.chb_shadow.UseVisualStyleBackColor = true;
             // 
             // tb_elemDmg
@@ -228,17 +229,27 @@
             this.label4.TabIndex = 16;
             this.label4.Text = "+";
             // 
+            // tb_checksum
+            // 
+            this.tb_checksum.Location = new System.Drawing.Point(12, 283);
+            this.tb_checksum.Name = "tb_checksum";
+            this.tb_checksum.Size = new System.Drawing.Size(712, 20);
+            this.tb_checksum.TabIndex = 17;
+            this.tb_checksum.Text = "Hash of item";
+            this.tb_checksum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(736, 287);
+            this.ClientSize = new System.Drawing.Size(736, 315);
+            this.Controls.Add(this.tb_checksum);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.tb_elemDmg);
             this.Controls.Add(this.chb_shadow);
             this.Controls.Add(this.chb_electro);
-            this.Controls.Add(this.chb_wind);
+            this.Controls.Add(this.chb_air);
             this.Controls.Add(this.chb_earth);
             this.Controls.Add(this.chb_fire);
             this.Controls.Add(this.chb_water);
@@ -275,11 +286,12 @@
         private System.Windows.Forms.CheckBox chb_water;
         private System.Windows.Forms.CheckBox chb_fire;
         private System.Windows.Forms.CheckBox chb_earth;
-        private System.Windows.Forms.CheckBox chb_wind;
+        private System.Windows.Forms.CheckBox chb_air;
         private System.Windows.Forms.CheckBox chb_electro;
         private System.Windows.Forms.CheckBox chb_shadow;
         private System.Windows.Forms.TextBox tb_elemDmg;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox tb_checksum;
     }
 }
 
