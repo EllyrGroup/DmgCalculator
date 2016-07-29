@@ -65,6 +65,8 @@ namespace DmgCalculator
             {
                 MessageBox.Show(ex.ToString());
             }
+            lb_item.SelectedIndex = 0;
+            lb_material.SelectedIndex = 0;
 #if DEBUG
             Text = "DMG Calculator [DEBUG]";
             nud_plusUpgrade.Maximum = decimal.MaxValue;
